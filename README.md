@@ -30,14 +30,13 @@
 ---
 
 > [!CAUTION]
-> **atexovi-ytmusic-api** - YouTube Music API (Unofficial)  
-Modified and maintained by [Atex Ovi](https://github.com/atexovi)
-> 
-> Original by [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api)
+> This package is **not official** YouTube Music API. It may break if YouTube changes their structure.
 
 ## Description
 
 This is a fork of ytmusic-api with modifications for Node.js compatibility and Termux optimization.
+
+*Live Demo: [ytmusic-player](https://ytmusic-player.vercel.app/)*
 
 ---
 
@@ -65,13 +64,12 @@ async function main() {`
 `main();
 ```
 
-Demo Live:
-> *Coming soon*
 ---
 
 ## For Contributors (TypeScript Source)
 
-This repository contains TypeScript source code.
+> [!NOTE]
+> This repository contains TypeScript source code.
 
 ### 1. Clone
 
@@ -184,10 +182,11 @@ npm run clean
 
 ## Credits
 
-| Role | Contributor |
-|------|-------------|
-| Original Author | [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api) |
-| Modified by | [Atex Ovi](https://github.com/atex-ovi) |
+| Role | Author | Package |
+|------|--------|---------|
+| Original Creator | Ateş Tan | [youtube-music-api](https://www.npmjs.com/package/youtube-music-api) |
+| TypeScript Fork | zS1L3NT | [ytmusic-api](https://github.com/zS1L3NT/ts-npm-ytmusic-api) |
+| Node.js Port | Atex Ovi | [atexovi-ytmusic-api](https://npmjs.com/package/atexovi-ytmusic-api) |
 
 ---
 

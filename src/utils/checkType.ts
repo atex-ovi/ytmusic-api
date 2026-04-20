@@ -6,7 +6,7 @@ export default <T>(data: T, type: ZodType<T>): T => {
 
 	if (result.error) {
 		console.error(
-			"Invalid data type, please report to https://github.com/zS1L3NT/ts-npm-ytmusic-api/issues/new/choose",
+			"Invalid data type",
 			JSON.stringify(
 				{
 					data,
