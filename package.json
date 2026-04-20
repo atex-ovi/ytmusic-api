@@ -1,0 +1,47 @@
+{
+	"name": "atexovi-ytmusic-api",
+	"version": "1.0.2",
+	"description": "YouTube Music API - Modified by Atex Ovi",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"author": "Atex Ovi",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atex-ovi/ytmusic-api.git"
+	},
+	"bugs": {
+		"url": "https://github.com/atex-ovi/ytmusic-api/issues"
+	},
+	"homepage": "https://github.com/atex-ovi/ytmusic-api#readme",
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"scripts": {
+		"build": "tsup src/index.ts",
+		"lint": "tsc --noEmit",
+		"clean": "rm -rf dist",
+		"prepublishOnly": "npm run build"
+	},
+	"dependencies": {
+		"axios": "^1.7.2",
+		"tough-cookie": "^4.1.4",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@types/node": "^25.6.0",
+		"@types/tough-cookie": "^4.0.5",
+		"tsup": "^8.1.0",
+		"typescript": "5.1",
+		"zod-to-json-schema": "^3.23.1"
+	},
+	"keywords": [
+		"youtube",
+		"music",
+		"api",
+		"atexovi",
+		"scraper",
+		"youtube-music"
+	]
+}
