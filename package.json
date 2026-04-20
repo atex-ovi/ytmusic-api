@@ -1,6 +1,6 @@
 {
 	"name": "atexovi-ytmusic-api",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "YouTube Music API - Modified by Atex Ovi",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
