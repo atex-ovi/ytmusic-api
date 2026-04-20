@@ -39,7 +39,7 @@ Modified and maintained by [Atex Ovi](https://github.com/atexovi)
 
 This is a fork of ytmusic-api with modifications for Node.js compatibility and Termux optimization.
 
-> Live Demo: [ytmusic-player](https://ytmusic-player.vercel.app/)
+*Live Demo: [ytmusic-player](https://ytmusic-player.vercel.app/)*
 
 ---
 
@@ -71,7 +71,8 @@ async function main() {`
 
 ## For Contributors (TypeScript Source)
 
-This repository contains TypeScript source code.
+> [!NOTE]
+> This repository contains TypeScript source code.
 
 ### 1. Clone
 
