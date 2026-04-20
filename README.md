@@ -19,21 +19,101 @@
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Node.js-16+-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
   </a>
-  <a href="https://github.com/atex-ovi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
+  <a href="https://tsup.egoist.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/tsup-8.1.0-3178C6?style=flat&logo=typescript&logoColor=white" alt="tsup">
+  </a>
+  <a href="https://axios-http.com/" target="_blank">
+    <img src="https://img.shields.io/badge/axios-1.7.2-5A29E4?style=flat&logo=axios&logoColor=white" alt="axios">
+  </a>
+  <a href="https://zod.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/zod-3.23.8-3068B7?style=flat&logo=zod&logoColor=white" alt="zod">
   </a>
 </p>
 
 ---
 
-**atexovi-ytmusic-api** - YouTube Music API (Unofficial)  
+> [!CAUTION]
+> **atexovi-ytmusic-api** - YouTube Music API (Unofficial)  
 Modified and maintained by [Atex Ovi](https://github.com/atexovi)
 
 Original by [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api)
 
 ## Description
 
-This is a fork of ytmusic-api with modifications for Node.js compatibility and Termux optimization. Original package by [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api).
+This is a fork of ytmusic-api with modifications for Node.js compatibility and Termux optimization.
+
+---
+
+## For Package Users (npm)
+
+Install from npm:
+
+```bash
+npm install atexovi-ytmusic-api
+```
+
+Then use:
+
+```javascript
+const YTMusicModule = require('atexovi-ytmusic-api');
+const YTMusic = YTMusicModule.default;`
+
+async function main() {`
+    const ytmusic = new YTMusic();`
+    await ytmusic.initialize();`
+    const songs = await ytmusic.search("Never gonna give you up");`
+    console.log(songs);`
+}
+
+`main();
+```
+
+Demo Live:
+> *Coming soon*
+---
+
+## For Contributors (TypeScript Source)
+
+This repository contains TypeScript source code.
+
+### 1. Clone
+
+```bash
+git clone https://github.com/atex-ovi/ytmusic-api.git`
+cd ytmusic-api
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Build
+
+```bash
+npm run build
+```
+
+Compiles TypeScript from `src/` to `dist/`
+
+### 4. Run Tests
+
+```bash
+npm test
+```
+
+### 5. Lint
+
+```bash
+npm run lint
+```
+
+### 6. Clean
+
+```bash
+npm run clean
+```
 
 ---
 
@@ -60,46 +140,6 @@ This is a fork of ytmusic-api with modifications for Node.js compatibility and T
 
 ---
 
-## Installation
-
-```bash
-npm install atexovi-ytmusic-api
-```
----
-
-## Usage
-
-### CommonJS (Node.js)
-
-```javascript
-const YTMusicModule = require('atexovi-ytmusic-api');
-const YTMusic = YTMusicModule.default;
-
-async function main() {
-    const ytmusic = new YTMusic();
-    await ytmusic.initialize();
-    
-    const songs = await ytmusic.search("Never gonna give you up");
-    console.log(songs);
-}
-
-main();
-```
-
-### ES Modules
-
-```javascript
-import YTMusic from 'atexovi-ytmusic-api';
-
-const ytmusic = new YTMusic();
-await ytmusic.initialize();
-
-const songs = await ytmusic.search("Never gonna give you up");
-console.log(songs);
-```
-
----
-
 ## API Methods
 
 | Method | Description |
@@ -113,6 +153,7 @@ console.log(songs);
 | getTrendingSongs() | Get trending music |
 
 ---
+
 
 ## Response Format
 
