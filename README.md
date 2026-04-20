@@ -4,9 +4,6 @@
   <a href="https://www.npmjs.com/package/atexovi-ytmusic-api" target="_blank">
     <img src="https://img.shields.io/npm/v/atexovi-ytmusic-api?style=flat&logo=npm&logoColor=white&labelColor=CB3837&color=333" alt="npm version">
   </a>
-  <a href="https://www.npmjs.com/package/atexovi-ytmusic-api" target="_blank">
-    <img src="https://img.shields.io/npm/dt/atexovi-ytmusic-api?style=flat&logo=npm&logoColor=white&labelColor=CB3837&color=333" alt="npm total downloads">
-  </a>
   <a href="https://github.com/atex-ovi/ytmusic-api/blob/main/LICENSE" target="_blank">
     <img src="https://img.shields.io/npm/l/atexovi-ytmusic-api?style=flat&logo=opensourceinitiative&logoColor=white&labelColor=CB3837&color=333" alt="license">
   </a>
@@ -35,8 +32,8 @@
 > [!CAUTION]
 > **atexovi-ytmusic-api** - YouTube Music API (Unofficial)  
 Modified and maintained by [Atex Ovi](https://github.com/atexovi)
-
-Original by [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api)
+> 
+> Original by [zS1L3NT](https://github.com/zS1L3NT/ts-npm-ytmusic-api)
 
 ## Description
 
